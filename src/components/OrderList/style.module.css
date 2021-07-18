@@ -1,0 +1,23 @@
+.list{
+    list-style-type: none;
+    display:flex;
+    flex: 1;
+    justify-content: space-around;
+    grid-gap:1rem ;
+    width: 90%;
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    height: 5px; /* высота для горизонтального скролла */
+    background-color: #ECEDEF;
+
+}
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 9em;
+    width: 134px;
+}

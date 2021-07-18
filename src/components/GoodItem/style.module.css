@@ -1,0 +1,34 @@
+.item {
+    background-color: #FFF;
+    border-radius: 0.5rem;
+    background-color: #ECEDEF;
+    
+}
+
+.item__wrapper{
+    margin: 14px 26.5px 14px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.item__name {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.item__price {
+    color: #5364FF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.item__count {
+    color: #888E99;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+}

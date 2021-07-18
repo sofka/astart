@@ -1,0 +1,10 @@
+.slider {
+    height: 19rem;
+    position: relative;
+    text-align: center;
+}
+
+.slider img{
+    position: absolute;
+    bottom: 0;
+}
