@@ -14,7 +14,7 @@ const GoodItem: React.FC<GoodItemProps> = ({ good }) => {
           <div className={style.item__name}>{good.name}</div>
           <div className={style.item__count}>Количество {good.count} шт. </div>
         </div>
-        <div className={style.item__price}>{good.price}</div>
+        <div className={style.item__price}>{good.price} Р</div>
       </div>
     </li>
   )

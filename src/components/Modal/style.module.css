@@ -62,6 +62,13 @@
 @media (max-width: 420px) {
     .modal {
         width: 350px;  
-        top: 60vh;  
+        top: 68vh;  
+    }
+}
+
+@media (max-width: 360px) {
+    .modal {
+        width: 300px;  
+        top: 90vh;  
     }
 }
