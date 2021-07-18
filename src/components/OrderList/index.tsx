@@ -10,11 +10,13 @@ interface OrderListProps {
 
 const OrderList: React.FC<OrderListProps> = ({ orders, selectOrder }: OrderListProps) => {
   return (
+    <div className={style.container}>
     <ul className={style.list}>
       {orders.map(el => (
         <OrderItem order={el} selectOrder={selectOrder}/>
       ))}
     </ul>
+    </div>
   )
 }
 

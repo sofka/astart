@@ -16,7 +16,6 @@ const App: React.FC = () => {
   const ordersRedux = useSelector(loadedOrders)
   useEffect(() => {
     dispatch(getOrdersAsync())
-    console.log(ordersRedux)
   }, [])
   const [isOpen, setOpen] = useState(false)
   const [selectedOrder, setSelectedOrder] = useState<Order | null>(null)

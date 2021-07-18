@@ -8,7 +8,7 @@ interface GoodItemProps {
 
 const GoodItem: React.FC<GoodItemProps> = ({ good }) => {
   return (
-    <li className={style.item}>
+    <li key={good.id} className={style.item}>
       <div className={style.item__wrapper}>
         <div className={style.item__block}>
           <div className={style.item__name}>{good.name}</div>

@@ -4,11 +4,12 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: grey;
+    background: rgba(0,0,0,0.5);
     visibility: hidden;
     opacity: 0;
     transition: all 0.25s ease-in-out;
     z-index: 100000;
+    overflow-y: scroll;
 }
 
 .root.open {
@@ -28,7 +29,6 @@
     border-radius: 10px 10px 0 0;
 }
 
-
 .head {
     position: relative;
     padding: 20px 14px 0 23px;
@@ -43,26 +43,25 @@
     width: 3rem;
     height: 3rem;
     border: none;
-    background: no-repeat url(../../img/close.png) ;
+    background: no-repeat url(../../img/close.png);
 }
 
 .btnClose:hover {
-    color: rgb(243, 170, 170);
+    cursor: pointer;
 }
-
-
 
 .content {
     padding: 12px 24px;
 }
 
-.date{
+.date {
     color: #5364FF;
     margin-left: 53px;
 }
 
-@media (max-width: 420px){
+@media (max-width: 420px) {
     .modal {
         width: 350px;
+        top: 61%;
     }
 }
