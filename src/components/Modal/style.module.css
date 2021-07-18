@@ -22,7 +22,7 @@
     min-height: 110px;
     display: block;
     position: relative;
-    top: 61%;
+    top: 50vh;
     left: 50%;
     background: #fafafa;
     transform: translate(-50%, -50%);
@@ -61,6 +61,7 @@
 
 @media (max-width: 420px) {
     .modal {
-        width: 350px;       
+        width: 350px;  
+        top: 60vh;  
     }
 }
