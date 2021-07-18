@@ -6,7 +6,6 @@ body {
   background: url(./img/bg.png);
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
-  overflow-y: hidden;
 }
 
 code {
